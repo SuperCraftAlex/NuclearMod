@@ -1,0 +1,16 @@
+[
+{
+  "modid": "nuclearmod",
+  "name": "Nuclear Mod",
+  "description": "",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://supercraftalex.net",
+  "updateUrl": "",
+  "authorList": ["super_craft_alex"],
+  "credits": "The Forge and FML guys, for making forge, and ...",
+  "logoFile": "assets/nuclearmod/icon.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
