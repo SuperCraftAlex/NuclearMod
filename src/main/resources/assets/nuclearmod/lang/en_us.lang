@@ -1,5 +1,6 @@
 #Creative Tab
 itemGroup.nuclearmod_utilities=NuclearMod Utilities
+itemGroup.nuclearmod_resources=NuclearMod Resources
 
 #Items
 item.tutitem.name=Tutorial Item
@@ -21,6 +22,23 @@ item.emerald_boots.name=Emerald Boots
 
 item.wrench.name=Wrench
 
+item.uranium_233_pellet.name=Uranium 233 Pellet (U-233)
+item.uranium_233_fuelcell.name=Uranium 233 Fuel Cell (U-233)
+item.uranium_233_fuelcell_depleted.name=Uranium 233 Depleted Fuel Cell (U-233)
+
+item.uranium_ingot.name=Uranium Ingot
+item.uranium_233_ingot.name=Uranium 233 Ingot (U-233)
+item.copper_ingot.name=Copper
+item.ruby_gem.name=Ruby
+
 #Blocks
+tile.uranium_ore.name=Uranium Ore
+tile.copper_ore.name=Copper Ore
+tile.ruby_ore.name=Ruby Ore
+
 tile.tutblock.name=Tutorial Block
 tile.tutblockfacing.name=Tutorial Block Facing
+tile.uranium_block.name=Uranium Block
+tile.uranium_233_block.name=Uranium 233 Block (U-233)
+tile.ruby_block.name=Ruby Block
+tile.copper_block.name=Copper Block

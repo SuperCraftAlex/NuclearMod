@@ -5,10 +5,10 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.ITickable;
 import net.supercraftalex.nuclearmod.block.machine.rbmk.RBMKBlockType;
-import net.supercraftalex.nuclearmod.tileentity.ModTileEntity;
+import net.supercraftalex.nuclearmod.tileentity.ModTilentityLockableLoot;
 import net.supercraftalex.nuclearmod.util.RandomUtil;
 
-public class RBMKTileEntity extends ModTileEntity implements ITickable {
+public class RBMKTileEntity extends ModTilentityLockableLoot implements ITickable {
 
 //Neutron speed: 0-50 slow 50-100 medium 100+ fast
 
@@ -27,6 +27,9 @@ public class RBMKTileEntity extends ModTileEntity implements ITickable {
         this.arg1 = aarg1;
         this.arg2 = aarg2;
         this.arg3 = aarg3;
+    }
+    public RBMKTileEntity(String name, RBMKBlockType BlockType) {
+        this.type = BlockType;
     }
 
     @Override

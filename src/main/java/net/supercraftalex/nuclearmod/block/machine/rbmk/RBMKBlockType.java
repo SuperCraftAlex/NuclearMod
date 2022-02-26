@@ -8,7 +8,7 @@ public enum RBMKBlockType {
     REDUCEHEAT,     //Reduces heat                 how much percent of   heat
     BLOCKHEAT,      //Blocks heat
     STOP,           //Stop neutrons
-    FUEL,           //Fuel                                         neutrons/fission  heat/fission   heat to melt
+    FUEL,           //Fuel                                         neutrons/fission  heat/fission    heat to melt
     REFLECT,        //Reflect neutrons
     STOPALL         //Stops neutrons and heat
 

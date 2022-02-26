@@ -1,5 +1,6 @@
 package net.supercraftalex.nuclearmod;
 
+import net.supercraftalex.nuclearmod.materialpack.MaterialPacks;
 import net.supercraftalex.nuclearmod.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -21,6 +22,8 @@ public class NuclearMod {
 
 	@SidedProxy(serverSide = "net.supercraftalex.nuclearmod.proxy.CommonProxy", clientSide = "net.supercraftalex.nuclearmod.proxy.ClientProxy")
 	private static CommonProxy proxy;
+
+	public MaterialPacks materialPacks = new MaterialPacks();
 
 	@EventHandler
 	public void preinit(FMLPreInitializationEvent event) {

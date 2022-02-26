@@ -5,6 +5,10 @@ import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.supercraftalex.nuclearmod.NuclearMod;
+import net.supercraftalex.nuclearmod.block.ModBlock;
+import net.supercraftalex.nuclearmod.item.ModItem;
+import net.supercraftalex.nuclearmod.materialpack.MaterialPack;
 
 public class ModInitModels {
 	
@@ -16,22 +20,23 @@ public class ModInitModels {
 		
 		register(ModInitItems.superfood);
 		
-		register(ModInitItems.emeraldSword);
-		register(ModInitItems.emeraldPickaxe);
-		register(ModInitItems.emeraldAxe);
-		register(ModInitItems.emeraldSpade);
-		register(ModInitItems.emeraldHoe);
-		
-		register(ModInitItems.emeraldHelmet);
-		register(ModInitItems.emeraldChestplate);
-		register(ModInitItems.emeraldLeggings);
-		register(ModInitItems.emeraldBoots);
-		
 		register(ModInitItems.wrench);
 		
 		register(Item.getItemFromBlock(ModInitBlocks.tutblock));
-		
 		register(Item.getItemFromBlock(ModInitBlocks.tutblockfacing));
+
+		for(MaterialPack mp : NuclearMod.getInstance().materialPacks.packs) {
+			for(ModItem i : mp.items) {
+				register(i);
+			}
+			for(ModBlock b : mp.blocks) {
+				register(Item.getItemFromBlock(b));
+			}
+			for(Item i : mp.items2) {
+				register(i);
+			}
+		}
+
 	}
 	
 	private static void register(Item item) {
