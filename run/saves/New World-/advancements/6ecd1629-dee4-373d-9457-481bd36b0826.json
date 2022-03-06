@@ -1,0 +1,9 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "taiga": "2022-03-06 19:49:22 +0100",
+      "roofed_forest": "2022-03-06 19:49:26 +0100"
+    },
+    "done": false
+  }
+}

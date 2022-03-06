@@ -42,7 +42,15 @@ public class BombNuke extends ModBomb {
 	public void explode(World world, BlockPos pos) {
 		if(world.isRemote)
 			return;
-
+		world.setBlockState(pos, Blocks.AIR.getDefaultState());
+		ExplosionNukeGeneric.dedify(world,pos.getX(),pos.getY(),pos.getZ(),strength*2);
+		if(this == ModBlocks.bomb_nuke_hydrogen) {
+			ExplosionNukeGeneric.waste(world,pos.getX(),pos.getY(),pos.getZ(),strength);
+		}
+		else {
+			ExplosionNukeGeneric.detonateTestBomb(world,pos.getX(),pos.getY(),pos.getZ(),strength);
+		}
+		ExplosionNukeGeneric.empBlast(world,pos.getX(),pos.getY(),pos.getZ(),strength);
 	}
 
 }

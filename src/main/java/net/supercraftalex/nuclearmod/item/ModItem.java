@@ -1,13 +1,17 @@
 package net.supercraftalex.nuclearmod.item;
 
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.Vec3d;
+import net.minecraft.world.World;
 import net.supercraftalex.nuclearmod.init.ModInitTabs;
 import net.supercraftalex.nuclearmod.tab.ModTab;
+
+import java.util.List;
 
 public class ModItem extends Item {
 
@@ -43,6 +47,19 @@ public class ModItem extends Item {
         super.setCreativeTab(tab);
         ModInitTabs.addItemToCreativeTab(new ItemStack(this), (ModTab) tab);
         return this;
+    }
+
+    @Override
+    public void addInformation(ItemStack stack, World worldIn, List<String> tooltip, ITooltipFlag flagIn)
+    {
+        super.addInformation(stack, worldIn, tooltip, flagIn);
+        if(this.baseRadiation != 0.0) { tooltip.add("RAD: " + this.baseRadiation); }
+        if (stack.hasTagCompound()) {
+            tooltip.add("heat: " + stack.getTagCompound().getDouble("heat"));
+        }
+        else if(this.heat !=  23) {
+            tooltip.add("heat: " + this.heat);
+        }
     }
 
     public RayTraceResult rayTrace(EntityPlayer player, double blockReachDistance) {

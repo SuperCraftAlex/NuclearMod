@@ -34,7 +34,10 @@ public class ItemDetonator extends ModItem {
         ItemStack stack = playerIn.getHeldItem(handIn);
 
         NBTTagCompound nbt;
-        if (stack.hasTagCompound())
+        if (stack.hasTagCompound() && !(
+                stack.getTagCompound().getInteger("x") == 0 &&
+                stack.getTagCompound().getInteger("y") == 0 &&
+                stack.getTagCompound().getInteger("z") == 0))
         {
             int x = stack.getTagCompound().getInteger("x");
             int y = stack.getTagCompound().getInteger("y");
@@ -45,6 +48,9 @@ public class ItemDetonator extends ModItem {
             if(worldIn.getBlockState(pos).getBlock() instanceof ModBomb) {
                 ((ModBomb)worldIn.getBlockState(pos).getBlock()).explode(worldIn,pos);
             }
+            nbt.setInteger("x", 0);
+            nbt.setInteger("y", 0);
+            nbt.setInteger("z", 0);
         }
         else
         {
@@ -57,9 +63,9 @@ public class ItemDetonator extends ModItem {
                 }
                 if(worldIn.getBlockState(result.getBlockPos()).getBlock() instanceof ModBomb) {
                     playerIn.sendMessage(new TextComponentString("Set Bomb position."));
-                    nbt.setInteger("x", (int) playerIn.getLookVec().x);
-                    nbt.setInteger("y", (int) playerIn.getLookVec().y);
-                    nbt.setInteger("z", (int) playerIn.getLookVec().z);
+                    nbt.setInteger("x", result.getBlockPos().getX());
+                    nbt.setInteger("y", result.getBlockPos().getY());
+                    nbt.setInteger("z", result.getBlockPos().getZ());
                 }
             }
         }
