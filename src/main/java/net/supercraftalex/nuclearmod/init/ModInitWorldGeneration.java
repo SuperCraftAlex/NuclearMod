@@ -9,10 +9,11 @@ import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.*;
 import net.minecraft.world.gen.feature.*;
 import net.minecraftforge.fml.common.IWorldGenerator;
+import net.supercraftalex.nuclearmod.block.ModBlocks;
 
 public class ModInitWorldGeneration implements IWorldGenerator {
 	
-	private final WorldGenMinable tutblockgen = new WorldGenMinable(ModInitBlocks.tutblock.getDefaultState(), 5, (blockstate) -> blockstate.getBlock() == Blocks.AIR);
+	private final WorldGenMinable tutblockgen = new WorldGenMinable(ModBlocks.tutblock.getDefaultState(), 5, (blockstate) -> blockstate.getBlock() == Blocks.AIR);
 	
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {

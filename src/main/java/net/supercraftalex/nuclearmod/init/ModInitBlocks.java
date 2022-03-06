@@ -10,59 +10,58 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.registries.IForgeRegistry;
-import net.supercraftalex.nuclearmod.block.BlockTutorial;
-import net.supercraftalex.nuclearmod.block.BlockTutorialFacing;
-import net.supercraftalex.nuclearmod.materialpack.MaterialPack;
 
 public class ModInitBlocks {
-	
-	public static final BlockTutorial tutblock = new BlockTutorial();
-	public static final BlockTutorialFacing tutblockfacing = new BlockTutorialFacing();
-	
+
 	public static void init() {
-		setName(tutblock, "tutblock");
-		setName(tutblockfacing, "tutblockfacing");
-		for(MaterialPack mp : NuclearMod.getInstance().materialPacks.packs) {
-			for(ModBlock b : mp.blocks) {
-				try {
-					setName(b, b.name);
-				}
-				catch(Exception e) {}
-			}
+
+		for(ModBlock b : ModBlocks.modBlocks) {
+			setName(b, b.name);
 		}
+
+		for(ModBlock b : NuclearMod.getInstance().materialPacks.blocks) {
+			try {
+				setName(b, b.name);
+			}
+			catch(Exception e) {}
+		}
+
 	}
-	
+
 	@SubscribeEvent
 	public static void register(RegistryEvent.Register<Block> event) {
+
 		IForgeRegistry<Block> registry = event.getRegistry();
 
-		registry.register(tutblock);
-		registry.register(tutblockfacing);
-
-		for(MaterialPack mp : NuclearMod.getInstance().materialPacks.packs) {
-			for(ModBlock b : mp.blocks) {
-				try {
-					registry.register(b);
-				}
-				catch(Exception e) {}
-			}
+		for(ModBlock b : ModBlocks.modBlocks) {
+			registry.register(b);
 		}
+
+		for(ModBlock b : NuclearMod.getInstance().materialPacks.blocks) {
+			try {
+				registry.register(b);
+			}
+			catch(Exception e) {}
+		}
+
 	}
 	
 	@SubscribeEvent
 	public static void registerItem(RegistryEvent.Register<Item> event) {
-		IForgeRegistry<Item> registry = event.getRegistry();
-		registry.register(new ItemBlock(tutblock).setRegistryName(tutblock.getRegistryName()));
-		registry.register(new ItemBlock(tutblockfacing).setRegistryName(tutblockfacing.getRegistryName()));
 
-		for(MaterialPack mp : NuclearMod.getInstance().materialPacks.packs) {
-			for(ModBlock b : mp.blocks) {
-				try {
-					registry.register(new ItemBlock(b).setRegistryName(b.getRegistryName()));
-				}
-				catch(Exception e) {}
-			}
+		IForgeRegistry<Item> registry = event.getRegistry();
+
+		for(ModBlock b : ModBlocks.modBlocks) {
+			registry.register(new ItemBlock(b).setRegistryName(b.getRegistryName()));
 		}
+
+		for(ModBlock b : NuclearMod.getInstance().materialPacks.blocks) {
+			try {
+				registry.register(new ItemBlock(b).setRegistryName(b.getRegistryName()));
+			}
+			catch(Exception e) {}
+		}
+
 	}
 	
 

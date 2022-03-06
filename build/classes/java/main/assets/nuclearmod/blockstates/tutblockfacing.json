@@ -1,0 +1,27 @@
+{
+	"variants": {
+		"facing=north": {
+            "model": "nuclearmod:tutblockfacing"
+        },
+        "facing=south": {
+            "model": "nuclearmod:tutblockfacing",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "nuclearmod:tutblockfacing",
+            "y": 270
+        },
+        "facing=east": {
+            "model": "nuclearmod:tutblockfacing",
+            "y": 90
+        },
+        "facing=up": {
+            "model": "nuclearmod:tutblockfacing",
+            "x": 270
+        },
+        "facing=down": {
+            "model": "nuclearmod:tutblockfacing",
+            "x": 90
+        }
+	}
+}

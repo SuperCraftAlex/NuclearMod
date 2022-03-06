@@ -1,6 +1,10 @@
 package net.supercraftalex.nuclearmod.item;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.supercraftalex.nuclearmod.init.ModInitTabs;
+import net.supercraftalex.nuclearmod.tab.ModTab;
 
 public class ModItem extends Item {
 
@@ -16,8 +20,9 @@ public class ModItem extends Item {
         return heat;
     }
 
-    public void setHeat(double heat) {
+    public ModItem setHeat(double heat) {
         this.heat = heat;
+        return this;
     }
 
     public double getBaseRadiation() {
@@ -28,4 +33,13 @@ public class ModItem extends Item {
         this.baseRadiation = baseRadiation;
         return this;
     }
+
+    @Override
+    public Item setCreativeTab(CreativeTabs tab)
+    {
+        super.setCreativeTab(tab);
+        ModInitTabs.addItemToCreativeTab(new ItemStack(this), (ModTab) tab);
+        return this;
+    }
+
 }

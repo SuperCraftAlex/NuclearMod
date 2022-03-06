@@ -1,0 +1,27 @@
+{
+  "minecraft:recipes/building_blocks/snow": {
+    "criteria": {
+      "has_snowball": "2022-03-06 10:11:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2022-03-06 10:10:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow_layer": {
+    "criteria": {
+      "has_snowball": "2022-03-06 10:11:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "swampland": "2022-03-06 10:10:55 +0100",
+      "extreme_hills": "2022-03-05 21:48:53 +0100"
+    },
+    "done": false
+  }
+}
