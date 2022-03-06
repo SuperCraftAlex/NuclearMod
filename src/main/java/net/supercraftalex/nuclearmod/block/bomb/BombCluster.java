@@ -11,7 +11,7 @@ import net.supercraftalex.nuclearmod.init.ModInitTabs;
 import net.supercraftalex.nuclearmod.interfaces.IBomb;
 import net.supercraftalex.nuclearmod.util.RandomUtil;
 
-public class BombCluster extends ModBlock implements IBomb {
+public class BombCluster extends ModBomb {
 
 	public BombCluster() {
 		super(Material.IRON);

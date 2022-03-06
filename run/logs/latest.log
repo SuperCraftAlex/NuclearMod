@@ -1,48 +1,48 @@
-[17:52:44] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[17:52:44] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[17:52:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[17:52:44] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[17:52:44] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_275, running on Windows 10:amd64:10.0, installed at C:\Program Files\AdoptOpenJDK\jdk-8.0.275.1-hotspot\jre
-[17:52:44] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[17:52:44] [main/ERROR] [FML]: Full: C:\Users\Alex\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[17:52:44] [main/ERROR] [FML]: Trimmed: c:/users/alex/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[17:52:44] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[17:52:44] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[17:52:45] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[17:52:45] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[17:52:45] [main/INFO] [FML]: Searching C:\Users\Alex\Desktop\NuclearMod\run\.\mods for mods
-[17:52:45] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:52:45] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[17:52:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:52:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:52:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:52:48] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[17:52:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:52:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[17:52:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[17:52:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[17:52:48] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[17:52:49] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player328
-[17:52:51] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[17:52:51] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[17:52:52] [Client thread/INFO] [FML]: -- System Details --
+[19:36:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:36:14] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:36:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:36:14] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[19:36:14] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_282, running on Windows 10:amd64:10.0, installed at C:\Users\Alex\.jdks\adopt-openjdk-1.8.0_282\jre
+[19:36:14] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[19:36:14] [main/ERROR] [FML]: Full: C:\Users\Alex\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[19:36:14] [main/ERROR] [FML]: Trimmed: c:/users/alex/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[19:36:15] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[19:36:15] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[19:36:15] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[19:36:15] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[19:36:15] [main/INFO] [FML]: Searching C:\Users\Alex\Desktop\NuclearMod\run\.\mods for mods
+[19:36:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:36:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:36:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:36:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:36:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:36:17] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[19:36:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:36:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:36:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:36:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:36:17] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[19:36:17] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player968
+[19:36:20] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[19:36:20] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[19:36:20] [Client thread/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
-	Java Version: 1.8.0_275, AdoptOpenJDK
+	Java Version: 1.8.0_282, AdoptOpenJDK
 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), AdoptOpenJDK
-	Memory: 929347096 bytes (886 MB) / 1087373312 bytes (1037 MB) up to 7618953216 bytes (7266 MB)
+	Memory: 969671856 bytes (924 MB) / 1129840640 bytes (1077 MB) up to 7618953216 bytes (7266 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 461.40' Renderer: 'GeForce GTX 1050 Ti/PCIe/SSE2'
-[17:52:52] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[17:52:52] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[17:52:52] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[17:52:52] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
-[17:52:52] [Client thread/INFO] [FML]: Searching C:\Users\Alex\Desktop\NuclearMod\run\.\mods for mods
-[17:52:53] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[19:36:20] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[19:36:20] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[19:36:21] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[19:36:21] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[19:36:21] [Client thread/INFO] [FML]: Searching C:\Users\Alex\Desktop\NuclearMod\run\.\mods for mods
+[19:36:22] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -59,19 +59,19 @@ java.lang.IllegalArgumentException: null
 	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[17:52:53] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Alex\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar - probably a corrupt zip
+[19:36:22] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Alex\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -86,16 +86,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 Caused by: java.lang.IllegalArgumentException
@@ -104,7 +104,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[17:52:53] [Client thread/WARN] [FML]: Zip file asm-util-6.2.jar failed to read properly, it will be ignored
+[19:36:22] [Client thread/WARN] [FML]: Zip file asm-util-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -119,16 +119,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 Caused by: java.lang.IllegalArgumentException
@@ -137,7 +137,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[17:52:53] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[19:36:22] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -154,19 +154,19 @@ java.lang.IllegalArgumentException: null
 	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[17:52:53] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Alex\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\6.2\c7d9a90d221cbb977848d2c777eb3aa7637e89df\asm-analysis-6.2.jar - probably a corrupt zip
+[19:36:22] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Alex\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\6.2\61570e046111559f38d4e0e580c005f75988c0a6\asm-tree-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -181,16 +181,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 Caused by: java.lang.IllegalArgumentException
@@ -199,7 +199,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[17:52:53] [Client thread/WARN] [FML]: Zip file asm-analysis-6.2.jar failed to read properly, it will be ignored
+[19:36:22] [Client thread/WARN] [FML]: Zip file asm-tree-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -214,16 +214,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 Caused by: java.lang.IllegalArgumentException
@@ -232,7 +232,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[17:52:53] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[19:36:22] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -249,19 +249,19 @@ java.lang.IllegalArgumentException: null
 	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[17:52:53] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Alex\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\6.2\61570e046111559f38d4e0e580c005f75988c0a6\asm-tree-6.2.jar - probably a corrupt zip
+[19:36:22] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Alex\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\6.2\1b6c4ff09ce03f3052429139c2a68e295cae6604\asm-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -276,16 +276,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 Caused by: java.lang.IllegalArgumentException
@@ -294,7 +294,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[17:52:53] [Client thread/WARN] [FML]: Zip file asm-tree-6.2.jar failed to read properly, it will be ignored
+[19:36:22] [Client thread/WARN] [FML]: Zip file asm-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -309,16 +309,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 Caused by: java.lang.IllegalArgumentException
@@ -327,7 +327,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[17:52:53] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[19:36:22] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -344,19 +344,19 @@ java.lang.IllegalArgumentException: null
 	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[17:52:53] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Alex\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\6.2\1b6c4ff09ce03f3052429139c2a68e295cae6604\asm-6.2.jar - probably a corrupt zip
+[19:36:22] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Alex\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\6.2\c7d9a90d221cbb977848d2c777eb3aa7637e89df\asm-analysis-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -371,16 +371,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 Caused by: java.lang.IllegalArgumentException
@@ -389,7 +389,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[17:52:53] [Client thread/WARN] [FML]: Zip file asm-6.2.jar failed to read properly, it will be ignored
+[19:36:22] [Client thread/WARN] [FML]: Zip file asm-analysis-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -404,16 +404,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 Caused by: java.lang.IllegalArgumentException
@@ -422,66 +422,130 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[17:52:53] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
-[17:52:53] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, nuclearmod] at CLIENT
-[17:52:53] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, nuclearmod] at SERVER
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: [NuclearMod] Loading material packs...
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: Material Packs created!
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: Material Packs:
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: ==============================
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: uranium
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: uranium_233
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: uranium_235
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: uranium_238
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: thorium_232
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: plutonium
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: plutonium_238
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: plutonium_239
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: plutonium_240
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: plutonium_241
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: neptunium
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: technetium_99
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: cobalt_60
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: lead
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: titanium
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: tungsten
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: aluminium
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: steel
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: cobald
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: beryllium
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: boron
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: graphite
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: copper
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: ruby
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: emerald
-[17:52:54] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: ==============================
-[17:52:54] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Nuclear Mod
-[17:52:54] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
-[17:52:54] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[17:52:54] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[17:52:54] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[17:52:54] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[17:52:54] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[17:52:54] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 73089000 nanos
-[17:52:54] [Client thread/INFO] [FML]: Applying holder lookups
-[17:52:54] [Client thread/INFO] [FML]: Holder lookups applied
-[17:52:54] [Client thread/INFO] [FML]: Applying holder lookups
-[17:52:54] [Client thread/INFO] [FML]: Holder lookups applied
-[17:52:54] [Client thread/INFO] [FML]: Applying holder lookups
-[17:52:54] [Client thread/INFO] [FML]: Holder lookups applied
-[17:52:54] [Client thread/INFO] [FML]: Applying holder lookups
-[17:52:54] [Client thread/INFO] [FML]: Holder lookups applied
-[17:52:54] [Client thread/INFO] [FML]: Injecting itemstacks
-[17:52:54] [Client thread/INFO] [FML]: Itemstack injection complete
-[17:52:56] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[17:52:56] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[17:52:56] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
-[17:52:56] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[17:52:57] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
-[17:52:57] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
-[17:53:02] [Client thread/INFO] [FML]: Max texture size: 16384
-[17:53:05] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
-[17:53:06] [Client thread/ERROR] [FML]: Exception loading model for variant nuclearmod:tungsten_block#inventory for item "nuclearmod:tungsten_block", normal location exception: 
+[19:36:22] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[19:36:22] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, nuclearmod] at CLIENT
+[19:36:22] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, nuclearmod] at SERVER
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: [NuclearMod] Loading material packs...
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: Material Packs created!
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: Material Packs:
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: ==============================
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: uranium
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: uranium_233
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: uranium_235
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: uranium_238
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: thorium_232
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: plutonium
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: plutonium_238
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: plutonium_239
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: plutonium_240
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: plutonium_241
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: neptunium
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: technetium_99
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: cobalt_60
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: lead
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: titanium
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: tungsten
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: aluminium
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: steel
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: cobald
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: beryllium
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: boron
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: graphite
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: copper
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: ruby
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: emerald
+[19:36:22] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: ==============================
+[19:36:22] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Nuclear Mod
+[19:36:22] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[19:36:22] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[19:36:22] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[19:36:22] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[19:36:22] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[19:36:22] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[19:36:23] [Client thread/INFO] [FML]: Applying holder lookups
+[19:36:23] [Client thread/INFO] [FML]: Holder lookups applied
+[19:36:23] [Client thread/INFO] [FML]: Applying holder lookups
+[19:36:23] [Client thread/INFO] [FML]: Holder lookups applied
+[19:36:23] [Client thread/INFO] [FML]: Applying holder lookups
+[19:36:23] [Client thread/INFO] [FML]: Holder lookups applied
+[19:36:23] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 64668300 nanos
+[19:36:23] [Client thread/INFO] [FML]: Applying holder lookups
+[19:36:23] [Client thread/INFO] [FML]: Holder lookups applied
+[19:36:23] [Client thread/INFO] [FML]: Injecting itemstacks
+[19:36:23] [Client thread/INFO] [FML]: Itemstack injection complete
+[19:36:24] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[19:36:24] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[19:36:25] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[19:36:25] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[19:36:25] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[19:36:25] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[19:36:30] [Client thread/INFO] [FML]: Max texture size: 16384
+[19:36:33] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[19:36:33] [Client thread/ERROR] [FML]: Exception loading model for variant nuclearmod:block_electrical_scrap#normal for blockstate "nuclearmod:block_electrical_scrap"
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model nuclearmod:block_electrical_scrap#normal with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 21 more
+[19:36:33] [Client thread/ERROR] [FML]: Exception loading blockstate for the variant nuclearmod:block_electrical_scrap#normal: 
+java.lang.Exception: Could not load model definition for variant nuclearmod:block_electrical_scrap
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:269) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model nuclearmod:blockstates/block_electrical_scrap.json
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:228) ~[ModelBakery.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 20 more
+Caused by: java.io.FileNotFoundException: nuclearmod:blockstates/block_electrical_scrap.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:104) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:79) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:221) ~[ModelBakery.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 20 more
+[19:36:33] [Client thread/ERROR] [FML]: Exception loading model for variant nuclearmod:tungsten_block#inventory for item "nuclearmod:tungsten_block", normal location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model nuclearmod:item/tungsten_block with loader VanillaLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
@@ -492,16 +556,16 @@ net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception l
 	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 Caused by: java.io.FileNotFoundException: nuclearmod:models/item/tungsten_block.json
@@ -512,7 +576,7 @@ Caused by: java.io.FileNotFoundException: nuclearmod:models/item/tungsten_block.
 	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
 	... 20 more
-[17:53:06] [Client thread/ERROR] [FML]: Exception loading model for variant nuclearmod:tungsten_block#inventory for item "nuclearmod:tungsten_block", blockstate location exception: 
+[19:36:33] [Client thread/ERROR] [FML]: Exception loading model for variant nuclearmod:tungsten_block#inventory for item "nuclearmod:tungsten_block", blockstate location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model nuclearmod:tungsten_block#inventory with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
@@ -523,16 +587,16 @@ net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception l
 	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
@@ -540,7 +604,7 @@ Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$Missin
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
 	... 20 more
-[17:53:06] [Client thread/ERROR] [FML]: Exception loading blockstate for the variant nuclearmod:tungsten_block#inventory: 
+[19:36:33] [Client thread/ERROR] [FML]: Exception loading blockstate for the variant nuclearmod:tungsten_block#inventory: 
 java.lang.Exception: Could not load model definition for variant nuclearmod:tungsten_block
 	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:269) ~[ModelLoader.class:?]
 	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[ModelBakery.class:?]
@@ -551,16 +615,16 @@ java.lang.Exception: Could not load model definition for variant nuclearmod:tung
 	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model nuclearmod:blockstates/tungsten_block.json
@@ -575,7 +639,7 @@ Caused by: java.io.FileNotFoundException: nuclearmod:blockstates/tungsten_block.
 	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
 	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
 	... 20 more
-[17:53:06] [Client thread/ERROR] [FML]: Exception loading model for variant nuclearmod:cobald_ore#normal for blockstate "nuclearmod:cobald_ore"
+[19:36:33] [Client thread/ERROR] [FML]: Exception loading model for variant nuclearmod:cobald_ore#normal for blockstate "nuclearmod:cobald_ore"
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model nuclearmod:cobald_ore#normal with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:235) ~[ModelLoader.class:?]
@@ -587,16 +651,16 @@ net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception l
 	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
@@ -604,7 +668,7 @@ Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$Missin
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
 	... 21 more
-[17:53:06] [Client thread/ERROR] [FML]: Exception loading blockstate for the variant nuclearmod:cobald_ore#normal: 
+[19:36:33] [Client thread/ERROR] [FML]: Exception loading blockstate for the variant nuclearmod:cobald_ore#normal: 
 java.lang.Exception: Could not load model definition for variant nuclearmod:cobald_ore
 	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:269) ~[ModelLoader.class:?]
 	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[ModelBakery.class:?]
@@ -615,16 +679,16 @@ java.lang.Exception: Could not load model definition for variant nuclearmod:coba
 	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model nuclearmod:blockstates/cobald_ore.json
@@ -639,7 +703,7 @@ Caused by: java.io.FileNotFoundException: nuclearmod:blockstates/cobald_ore.json
 	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
 	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
 	... 20 more
-[17:53:06] [Client thread/ERROR] [FML]: Exception loading model for variant nuclearmod:plutonium_239_fuelcell_double_depleted#inventory for item "nuclearmod:plutonium_239_fuelcell_double_depleted", normal location exception: 
+[19:36:33] [Client thread/ERROR] [FML]: Exception loading model for variant nuclearmod:plutonium_239_fuelcell_double_depleted#inventory for item "nuclearmod:plutonium_239_fuelcell_double_depleted", normal location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model nuclearmod:item/plutonium_239_fuelcell_double_depleted with loader VanillaLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
@@ -650,16 +714,16 @@ net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception l
 	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 Caused by: java.io.FileNotFoundException: nuclearmod:models/item/plutonium_239_fuelcell_double_depleted.json
@@ -670,7 +734,7 @@ Caused by: java.io.FileNotFoundException: nuclearmod:models/item/plutonium_239_f
 	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
 	... 20 more
-[17:53:06] [Client thread/ERROR] [FML]: Exception loading model for variant nuclearmod:plutonium_239_fuelcell_double_depleted#inventory for item "nuclearmod:plutonium_239_fuelcell_double_depleted", blockstate location exception: 
+[19:36:33] [Client thread/ERROR] [FML]: Exception loading model for variant nuclearmod:plutonium_239_fuelcell_double_depleted#inventory for item "nuclearmod:plutonium_239_fuelcell_double_depleted", blockstate location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model nuclearmod:plutonium_239_fuelcell_double_depleted#inventory with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
@@ -681,16 +745,16 @@ net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception l
 	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
@@ -698,113 +762,86 @@ Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$Missin
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
 	... 20 more
-[17:53:06] [Client thread/ERROR] [FML]: Exception loading model for variant nuclearmod:cobalt_60_nugget#inventory for item "nuclearmod:cobalt_60_nugget", normal location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model nuclearmod:item/cobalt_60_nugget with loader VanillaLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-Caused by: java.io.FileNotFoundException: nuclearmod:models/item/cobalt_60_nugget.json
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 20 more
-[17:53:06] [Client thread/ERROR] [FML]: Exception loading model for variant nuclearmod:cobalt_60_nugget#inventory for item "nuclearmod:cobalt_60_nugget", blockstate location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model nuclearmod:cobalt_60_nugget#inventory with loader VariantLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
-	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 20 more
-[17:53:06] [Client thread/FATAL] [FML]: Suppressed additional 256 model loading errors for domain nuclearmod
-[17:53:06] [Client thread/INFO] [FML]: Applying holder lookups
-[17:53:06] [Client thread/INFO] [FML]: Holder lookups applied
-[17:53:06] [Client thread/INFO] [FML]: Injecting itemstacks
-[17:53:06] [Client thread/INFO] [FML]: Itemstack injection complete
-[17:53:07] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
-[17:53:07] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[17:53:07] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
-[17:53:07] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[17:53:12] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
-[17:53:12] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
-[17:53:12] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[17:53:13] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world nuclearmod:bomb_tsar
-[17:53:13] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world nuclearmod:bomb_boy
-[17:53:13] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world nuclearmod:uranium_233_block
-[17:53:13] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tutorialmod:tutblock
-[17:53:13] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tutorialmod:tutblockfacing
-[17:53:13] [Server thread/INFO] [FML]: Applying holder lookups
-[17:53:13] [Server thread/INFO] [FML]: Holder lookups applied
-[17:53:13] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@631f03a)
-[17:53:13] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[17:53:13] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@631f03a)
-[17:53:13] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@631f03a)
-[17:53:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[17:53:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 56%
-[17:53:15] [Server thread/INFO] [FML]: Unloading dimension -1
-[17:53:15] [Server thread/INFO] [FML]: Unloading dimension 1
-[17:53:15] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
-[17:53:16] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
-[17:53:16] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
-[17:53:16] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,mcp@9.42,nuclearmod@1.0.0
-[17:53:16] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
-[17:53:16] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[17:53:16] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player328[local:E:a82fbc5a] logged in with entity id 404 at (-274.5220530528433, 111.6254534239675, 1134.2239557168582)
-[17:53:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player328 joined the game
-[17:53:17] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[17:53:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[17:53:17] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 18 advancements
-[17:54:25] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 24 advancements
-[17:54:38] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[17:54:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[17:54:40] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
-[17:54:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[17:54:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[17:54:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[17:54:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[17:54:40] [Server thread/INFO] [FML]: Unloading dimension 0
-[17:54:40] [Server thread/INFO] [FML]: Applying holder lookups
-[17:54:40] [Server thread/INFO] [FML]: Holder lookups applied
-[17:54:40] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
-[17:54:40] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
+[19:36:33] [Client thread/FATAL] [FML]: Suppressed additional 269 model loading errors for domain nuclearmod
+[19:36:34] [Client thread/INFO] [FML]: Applying holder lookups
+[19:36:34] [Client thread/INFO] [FML]: Holder lookups applied
+[19:36:34] [Client thread/INFO] [FML]: Injecting itemstacks
+[19:36:34] [Client thread/INFO] [FML]: Itemstack injection complete
+[19:36:34] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[19:36:34] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[19:36:34] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[19:36:35] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[19:36:39] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[19:36:39] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[19:36:39] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[19:36:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world nuclearmod:bomb_nuke
+[19:36:39] [Server thread/INFO] [FML]: Applying holder lookups
+[19:36:39] [Server thread/INFO] [FML]: Holder lookups applied
+[19:36:40] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@1181180f)
+[19:36:40] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[19:36:40] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@1181180f)
+[19:36:40] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@1181180f)
+[19:36:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[19:36:41] [Server thread/INFO] [FML]: Unloading dimension -1
+[19:36:41] [Server thread/INFO] [FML]: Unloading dimension 1
+[19:36:41] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[19:36:42] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[19:36:42] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[19:36:42] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,mcp@9.42,nuclearmod@1.0.0
+[19:36:42] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[19:36:42] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[19:36:42] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player968[local:E:1f64b13e] logged in with entity id 534 at (-55.79635819486971, 76.0, -305.47630172377586)
+[19:36:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player968 joined the game
+[19:36:43] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[19:36:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[19:36:52] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Set Bomb position.
+[19:36:53] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:36:53] [Server thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:36:56] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[19:36:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[19:36:57] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:36:57] [Server thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:36:58] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:36:58] [Server thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:36:58] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:36:58] [Server thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:36:59] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:36:59] [Server thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:36:59] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:36:59] [Server thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:36:59] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:36:59] [Server thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:36:59] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:36:59] [Server thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:36:59] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:36:59] [Server thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:37:00] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:37:00] [Server thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:37:00] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:37:00] [Server thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:37:00] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:37:00] [Server thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:37:00] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:37:00] [Server thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:37:00] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:37:00] [Server thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:37:01] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:37:01] [Server thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:37:01] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:37:01] [Server thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:37:01] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:37:01] [Server thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:37:01] [Client thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:37:01] [Server thread/INFO] [net.supercraftalex.nuclearmod.NuclearMod]: 0 0 0
+[19:37:04] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[19:37:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[19:37:05] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[19:37:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[19:37:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[19:37:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[19:37:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[19:37:05] [Server thread/INFO] [FML]: Unloading dimension 0
+[19:37:05] [Server thread/INFO] [FML]: Applying holder lookups
+[19:37:05] [Server thread/INFO] [FML]: Holder lookups applied
+[19:37:06] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[19:37:06] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

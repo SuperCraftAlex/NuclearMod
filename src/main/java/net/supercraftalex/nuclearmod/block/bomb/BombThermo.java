@@ -12,7 +12,7 @@ import net.supercraftalex.nuclearmod.explosion.ExplosionThermo;
 import net.supercraftalex.nuclearmod.init.ModInitTabs;
 import net.supercraftalex.nuclearmod.interfaces.IBomb;
 
-public class BombThermo extends ModBlock implements IBomb {
+public class BombThermo extends ModBomb {
 
 	public BombThermo() {
 		super(Material.IRON);

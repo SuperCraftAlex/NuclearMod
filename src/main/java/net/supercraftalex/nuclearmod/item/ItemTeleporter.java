@@ -42,11 +42,4 @@ public class ItemTeleporter extends ModItem {
 		return new ActionResult<ItemStack>(EnumActionResult.SUCCESS, stack);
 	}
 
-	public RayTraceResult rayTrace(EntityPlayer player, double blockReachDistance) {
-		Vec3d vec3d = player.getPositionEyes(1.0F);
-		Vec3d vec3d1 = player.getLook(1.0F);
-		Vec3d vec3d2 = vec3d.addVector(vec3d1.x * blockReachDistance, vec3d1.y * blockReachDistance, vec3d1.z * blockReachDistance);
-		return player.getEntityWorld().rayTraceBlocks(vec3d, vec3d2, false, false, true);
-	}
-
 }

@@ -13,10 +13,13 @@ public class ModItems {
     public static final ModItem teleporter = new ItemTeleporter();
     public static final ModItem wrench = new ItemWrench();
 
+    public static final ModItem detonator = new ItemDetonator();
+
     public static void addItems() {
         addItem(tutitem, "tutitem");
         addItem(teleporter, "teleporter");
         addItem(wrench, "wrench");
+        addItem(detonator, "detonator");
     }
 
 

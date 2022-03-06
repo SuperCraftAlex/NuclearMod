@@ -31,6 +31,8 @@ item.emerald_boots.name=Emerald Boots
 
 item.wrench.name=Wrench
 
+item.detonator.name=Detonator
+
 item.uranium_233_pellet.name=Uranium 233 Pellet (U-233)
 
 item.uranium_233_fuelcell.name=Uranium 233 Fuel Cell (U-233)
@@ -65,9 +67,20 @@ tile.uranium_block.name=Uranium Block
 tile.ruby_block.name=Ruby Block
 tile.copper_block.name=Copper Block
 
+tile.block_scrap.name=Scrap Block
+tile.waste_earth.name=Waste Earth
+tile.waste_mycelium.name=Waste Mycelium
+tile.waste_log=Waste Log
+tile.waste_planks.name=Waste Planks
+tile.block_electrical_scrap.name=Electrical Scrap
+
 tile.bomb_thermo_endo.name=Thermo Bomb (endo)
 tile.bomb_thermo_snow.name=Thermo Bomb (snow)
 tile.bomb_thermo_endo_safe.name=Safe Thermo Bomb (endo)
 tile.bomb_thermo_exo.name=Thermo bomb (exo)
 tile.bomb_c4.name=C4
 tile.bomb_cluster.name=Cluster Bomb
+tile.bomb_nuke_small.name=Small Nuclear Bomb
+tile.bomb_nuke_medium.name=Medium Nuclear Bomb
+tile.bomb_nuke_big.name=Large Nuclear Bomb
+tile.bomb_nuke_hydrogen.name=Hydrogen Bomb
