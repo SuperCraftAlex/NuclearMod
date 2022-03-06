@@ -24,7 +24,7 @@ public class BombC4 extends ModBlock implements IBomb {
 		if (!worldIn.isRemote && worldIn.isBlockIndirectlyGettingPowered(pos) > 0)
         {
 			worldIn.setBlockState(pos, Blocks.AIR.getDefaultState());
-			worldIn.createExplosion(null, pos.getX(), pos.getY(), pos.getZ(), 20.0F, true);
+			worldIn.createExplosion(null, pos.getX(), pos.getY(), pos.getZ(), 60.0F, true);
         }
 	}
 	
@@ -34,7 +34,7 @@ public class BombC4 extends ModBlock implements IBomb {
 	public void explode(World world, BlockPos pos) {
 		if(world.isRemote)
 			return;
-    	world.createExplosion(null, pos.getX(), pos.getY(), pos.getZ(), 20.0F, true);
+    	world.createExplosion(null, pos.getX(), pos.getY(), pos.getZ(), 60.0F, true);
 	}
 
 }

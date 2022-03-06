@@ -1,6 +1,7 @@
 package net.supercraftalex.nuclearmod.block;
 
 import net.supercraftalex.nuclearmod.block.bomb.BombC4;
+import net.supercraftalex.nuclearmod.block.bomb.BombCluster;
 import net.supercraftalex.nuclearmod.block.bomb.BombThermo;
 
 import java.util.ArrayList;
@@ -26,6 +27,7 @@ public class ModBlocks {
     public static final ModBlock therm_endo_safe = new BombThermo(); //Kalt safe
     public static final ModBlock therm_exo = new BombThermo();  //Warm
     public static final ModBlock bomb_c4 = new BombC4();
+    public static final ModBlock bomb_cluster = new BombCluster();
 
     public static void addBlocks() {
 
@@ -45,6 +47,7 @@ public class ModBlocks {
         addBlock(therm_endo_safe, "bomb_thermo_endo_safe");
         addBlock(therm_exo, "bomb_thermo_exo");
         addBlock(bomb_c4, "bomb_c4");
+        addBlock(bomb_cluster, "bomb_cluster");
 
     }
 

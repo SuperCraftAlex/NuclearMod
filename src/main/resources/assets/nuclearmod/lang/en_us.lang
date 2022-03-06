@@ -70,3 +70,4 @@ tile.bomb_thermo_snow.name=Thermo Bomb (snow)
 tile.bomb_thermo_endo_safe.name=Safe Thermo Bomb (endo)
 tile.bomb_thermo_exo.name=Thermo bomb (exo)
 tile.bomb_c4.name=C4
+tile.bomb_cluster.name=Cluster Bomb
