@@ -47,20 +47,21 @@ public class BombThermo extends ModBlock implements IBomb {
 	public void explode(World world, BlockPos pos) {
 		if(world.isRemote)
 			return;
-		world.setBlockState(pos, Blocks.AIR.getDefaultState());
-    	if(this == ModBlocks.therm_endo)
-    	{
-    		ExplosionThermo.freeze(world, pos.getX(), pos.getY(), pos.getZ(), 15);
-    		ExplosionThermo.freezer(world, pos.getX(), pos.getY(), pos.getZ(), 20);
-    	}
-
-    	if(this == ModBlocks.therm_exo)
-    	{
-    		ExplosionThermo.scorch(world, pos.getX(), pos.getY(), pos.getZ(), 15);
-    		ExplosionThermo.setEntitiesOnFire(world, pos.getX(), pos.getY(), pos.getZ(), 20);
-    	}
-    	
-    	world.createExplosion(null, pos.getX(), pos.getY(), pos.getZ(), 5.0F, true);
+		if (this == ModBlocks.therm_endo ||this == ModBlocks.therm_endo_safe) {
+			ExplosionThermo.freeze(world, pos.getX(), pos.getY(), pos.getZ(), 15);
+			ExplosionThermo.freezer(world, pos.getX(), pos.getY(), pos.getZ(), 20);
+		}
+		if (this == ModBlocks.therm_snow) {
+			ExplosionThermo.snow(world, pos.getX(), pos.getY(), pos.getZ(), 80);
+			ExplosionThermo.freezer(world, pos.getX(), pos.getY(), pos.getZ(), 20);
+		}
+		if (this == ModBlocks.therm_exo) {
+			ExplosionThermo.scorch(world, pos.getX(), pos.getY(), pos.getZ(), 15);
+			ExplosionThermo.setEntitiesOnFire(world, pos.getX(), pos.getY(), pos.getZ(), 20);
+		}
+		if (this != ModBlocks.therm_endo_safe &&  this !=ModBlocks.therm_snow) {
+			world.createExplosion(null, pos.getX(), pos.getY(), pos.getZ(), 5.0F, true);
+		}
 	}
 
 }
