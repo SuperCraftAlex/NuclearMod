@@ -5,10 +5,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.supercraftalex.nuclearmod.init.ModInitBlocks;
-import net.supercraftalex.nuclearmod.init.ModInitItems;
-import net.supercraftalex.nuclearmod.init.ModInitSmelting;
-import net.supercraftalex.nuclearmod.init.ModInitWorldGeneration;
+import net.supercraftalex.nuclearmod.init.*;
 
 public class CommonProxy {
 	
@@ -18,6 +15,9 @@ public class CommonProxy {
 		
 		MinecraftForge.EVENT_BUS.register(ModInitItems.class);
 		MinecraftForge.EVENT_BUS.register(ModInitBlocks.class);
+
+		ModInitEntities.registerEntities();
+		ModInitEntities.registerEntityRenders();
 		
 		//GameRegistry.registerWorldGenerator(new ModInitWorldGeneration(), 0);
 	}

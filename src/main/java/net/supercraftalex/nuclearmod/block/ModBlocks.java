@@ -1,9 +1,7 @@
 package net.supercraftalex.nuclearmod.block;
 
-import net.supercraftalex.nuclearmod.block.bomb.BombC4;
-import net.supercraftalex.nuclearmod.block.bomb.BombCluster;
-import net.supercraftalex.nuclearmod.block.bomb.BombNuke;
-import net.supercraftalex.nuclearmod.block.bomb.BombThermo;
+import net.supercraftalex.nuclearmod.block.bomb.*;
+import net.supercraftalex.nuclearmod.block.weapon.MissileCarrier;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,6 +33,9 @@ public class ModBlocks {
     public static final ModBlock bomb_nuke_medium = new BombNuke(100);
     public static final ModBlock bomb_nuke_big = new BombNuke(200);
     public static final ModBlock bomb_nuke_hydrogen = new BombNuke(200);
+    public static final ModBlock bomb_anti_water = new BombAntiWater();
+
+    public static final ModBlock missile_carrier = new MissileCarrier();
 
     public static void addBlocks() {
 
@@ -61,6 +62,9 @@ public class ModBlocks {
         addBlock(bomb_nuke_medium, "bomb_nuke_medium");
         addBlock(bomb_nuke_big, "bomb_nuke_big");
         addBlock(bomb_nuke_hydrogen, "bomb_nuke_hydrogen");
+        addBlock(bomb_anti_water, "bomb_anti_water");
+
+        addBlock(missile_carrier, "missile_carrier");
 
     }
 

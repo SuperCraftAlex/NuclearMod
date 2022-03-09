@@ -15,6 +15,8 @@ import java.util.List;
 
 public class MaterialPacks {
 
+    //TODO: Dense Plates and Gears
+
     public List<MaterialPack> packs = new ArrayList<MaterialPack>();
 
     public List<ModBlock> blocks = new ArrayList<ModBlock>();
